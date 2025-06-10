@@ -1,0 +1,35 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grupo de Botões com Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-dark">
+
+    <div class="container-fluid bg-white p-3">
+        <div class="btn-group btn-group-sm">
+            <button type="button" class="btn btn-dark">HTML</button>
+            <button type="button" class="btn btn-dark">CSS</button>
+            <button type="button" class="btn btn-dark">JavaScript</button>
+            <button type="button" class="btn btn-dark">Bootstrap</button>
+            <button type="button" class="btn btn-dark">Sass</button>
+        </div>
+
+        <div class="btn-group btn-group-lg">
+            <button type="button" class="btn btn-dark">HTML</button>
+            <button type="button" class="btn btn-dark">CSS</button>
+            <div class="btn-group">
+                <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown">JavaScript</button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Variáveis</a>
+                    <a href="#" class="dropdown-item">Console</a>
+                    <a href="#" class="dropdown-item">Condicionais</a>
+                </div>
+            </div>
+            <button type="button" class="btn btn-dark">Bootstrap</button>
+            <button type="button" class="btn btn-dark">Sass</button>
+        </div>
+    </div>
+    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
